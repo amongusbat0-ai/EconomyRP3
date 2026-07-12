@@ -5,6 +5,7 @@ import fr.rp.economy.gui.WalletGui;
 import fr.rp.economy.listeners.EconomyGuiListener;
 import fr.rp.economy.listeners.PlayerJoinListener;
 import fr.rp.economy.listeners.VillagerTradeListener;
+import fr.rp.economy.listeners.VillagerEconomyListener;
 import fr.rp.economy.managers.DatabaseManager;
 import fr.rp.economy.managers.EconomyManager;
 import fr.rp.economy.managers.QuestManager;
