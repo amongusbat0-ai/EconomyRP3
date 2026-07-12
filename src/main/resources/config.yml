@@ -1,0 +1,59 @@
+# ============================================
+#   Configuration EconomyRP
+# ============================================
+
+# Argent de depart pour les nouveaux joueurs
+solde-depart: 100.0
+
+# Symbole affiche apres les montants
+symbole-monnaie: " pieces"
+
+# Multiplicateur des prix de vente des marchands ambulants / villageois
+# 1.0 = prix normal, 1.5 = 50% plus attractif pour le joueur
+multiplicateur-attractivite: 1.4
+
+# Valeur en argent du plugin d'une emeraude vanilla dans les echanges villageois
+# Les villageois n'utilisent plus d'emeraudes physiques : tout passe par le solde du joueur
+prix-par-emeraude: 10.0
+
+# Quetes fixes proposees dans /quests
+# Le joueur doit avoir les objets requis dans son inventaire pour valider
+quetes:
+  bucheron:
+    nom: "Bucheron du jour"
+    description: "Rendez 32 blocs de bois (chene)"
+    difficulte: facile
+    recompense: 50.0
+    materiau: OAK_LOG
+    quantite: 32
+  mineur:
+    nom: "Mineur de diamants"
+    description: "Rendez 5 diamants bruts"
+    difficulte: difficile
+    recompense: 300.0
+    materiau: DIAMOND
+    quantite: 5
+  pecheur:
+    nom: "Pecheur patient"
+    description: "Rendez 15 poissons crus"
+    difficulte: facile
+    recompense: 60.0
+    materiau: COD
+    quantite: 15
+  fermier:
+    nom: "Fermier productif"
+    description: "Rendez 64 ble"
+    difficulte: moyen
+    recompense: 100.0
+    materiau: WHEAT
+    quantite: 64
+  forgeron:
+    nom: "Forgeron"
+    description: "Rendez 20 lingots de fer"
+    difficulte: moyen
+    recompense: 150.0
+    materiau: IRON_INGOT
+    quantite: 20
+
+broadcast-gros-paiements: true
+seuil-broadcast: 1000.0
